@@ -19,6 +19,26 @@ export default function Portfolio() {
                 <img src={ sproutspy } alt="sproutspy"/>
                 <h3>Title</h3>
             </div>
+            <div className="item">
+                <img src={ sproutspy } alt="sproutspy"/>
+                <h3>Title</h3>
+            </div>
+            <div className="item">
+                <img src={ sproutspy } alt="sproutspy"/>
+                <h3>Title</h3>
+            </div>
+            <div className="item">
+                <img src={ sproutspy } alt="sproutspy"/>
+                <h3>Title</h3>
+            </div>
+            <div className="item">
+                <img src={ sproutspy } alt="sproutspy"/>
+                <h3>Title</h3>
+            </div>
+            <div className="item">
+                <img src={ sproutspy } alt="sproutspy"/>
+                <h3>Title</h3>
+            </div>
         </div>
     </div>
   )
