@@ -9,9 +9,9 @@ export default function Intro() {
   const textRef = useRef();
 
   useEffect(() => {
-    init(textRef, {
+    init(textRef.current, {
       showCursor: false,
-      strings: ["Hi, I'm Kat!"],
+      strings: ["Developer", "Content Creator", "Photographer"],
     });
   }, []);
 
@@ -26,7 +26,7 @@ export default function Intro() {
         <div className="wrapper">
           <h2>Hello and welcome, I am</h2>
           <h1>Kateryna Tekmenzhi</h1>
-          <h3>Web <span>Developer</span></h3>
+          <h3>Freelance <span ref={textRef}></span></h3>
         </div>
         <a href="#portfolio">
           <img src={arrow} alt="arrow" />
