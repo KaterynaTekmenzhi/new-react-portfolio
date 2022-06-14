@@ -1,17 +1,28 @@
+html, body, #root {
+  height: 100%;
+  margin: 0px;
+}
+
 .app{
-    height: 100vh;
+    min-height: 100%;
+    margin: 0;
+    
 
     .sections{
         width: 100%;
-        height: calc(100vh - 70px);
-        background-color: chartreuse;
-        position: relative;
+        height: calc(111vh - 69px);
+        background-color: #edf2f4;
+        // position: relative;
         top: 60px;
         scroll-snap-type: y mandatory;
+        scrollbar-width: none;
+        &::-webkit-scrollbar{
+            display: none;
+        }
 
         > *{
             width: 100%;
-            height: 100vh;
+            min-height: 100vh;
             scroll-snap-align: start;
         }
     }
