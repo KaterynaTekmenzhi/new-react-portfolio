@@ -11,6 +11,13 @@ export default function Portfolio({ projectData }) {
           <div className="item" key={index}>
             <img src={require(`../../assets/${project.image}`)} alt="something here" />
             <h3>{project.title}</h3>
+
+            {/* <a href={project.repo_link}></a> */}
+            {/* <a href={require(`../../assets/${project.repo_link}`)} 
+            target="_blank"
+            rel="noopener noreferrer"
+            className='repo-link'
+            ></a> */}
           </div>
         ))}
       </div>

@@ -1,7 +1,6 @@
 import Navbar from "./components/navigation/Navbar";
 import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
-import Works from "./components/works/Works";
 import Contact from "./components/contact/Contact";
 import Menu from "./components/menu/Menu";
 import "./app.scss";
@@ -11,7 +10,7 @@ import data from "./data";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [projectData, setProjectData] = useState(data);
+  const [projectData] = useState(data);
   return (
     <div className="app">
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
@@ -19,7 +18,6 @@ function App() {
       <div className="sections">
         <Intro/>
         <Portfolio projectData={projectData}/>
-        <Works/>
         <Contact/>
       </div>
     </div>
