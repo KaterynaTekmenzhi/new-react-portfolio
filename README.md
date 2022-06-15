@@ -9,6 +9,8 @@ This application showcases a professional portfolio for Kateryna Tekmenzhi.
 * [Questions](#questions)
 * [License](#license)
 ## Usage
+Navigate to the [deployed](https://katerynatekmenzhi.github.io/new-react-portfolio/)
+
 The following image shows the application's homepage.
 ![screeshot](./public/assets/portfolio.png)
 
@@ -21,5 +23,13 @@ The following image shows the application's homepage.
 
 ---
 ### Questions
+
+Deployment link is 
+[here](https://katerynatekmenzhi.github.io/new-react-portfolio/)
+
+Repositary link is 
+[here](https://github.com/KaterynaTekmenzhi/new-react-portfolio)
+
+
 Kateryna.koltunova@gmail.com
 [KaterynaTekmenzhi](https://github.com/KaterynaTekmenzhi)
