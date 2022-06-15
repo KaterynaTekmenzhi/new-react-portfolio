@@ -48,6 +48,8 @@
             justify-content: center;
             color: aliceblue;
             position: relative;
+            transition: all .5 ease;
+            cursor: pointer;
 
             h3{
                 font-size: 20px;
