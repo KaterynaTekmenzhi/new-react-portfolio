@@ -10,24 +10,8 @@
         font-size: 50px;
     }
 
-    ul{
-        margin: 10px;
-        padding: 0;
-        list-style: none;
-        display: flex;
-    }
-
-    li{
-        font-size: 14px;
-        margin-right: 50px;
-        padding: 7px;
-        border-radius: 10px;
-        cursor: pointer;
-
-        &.active{
-            background-color: $mainColor;
-            color: aliceblue;
-        }
+    h2{
+        font-size: 20px;
     }
 
     .container{
@@ -72,6 +56,24 @@
                     z-index: 0;
                 }
 
+            }
+
+            .container{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                a{
+                    color: aliceblue;
+                    // text-decoration: none;
+                    transition: all .5 ease;
+                    cursor: pointer;
+                }
             }
         }
     }

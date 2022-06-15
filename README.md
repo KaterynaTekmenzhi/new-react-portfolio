@@ -9,7 +9,7 @@ This application showcases a professional portfolio for Kateryna Tekmenzhi.
 * [Questions](#questions)
 * [License](#license)
 ## Usage
-
+The following image shows the application's homepage.
 ![screeshot](./public/assets/portfolio.png)
 
 ## Technologies
