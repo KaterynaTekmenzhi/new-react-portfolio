@@ -2,7 +2,7 @@ const data = [
     {
         "id": 1,
         "title": "sproutspy v1.0",
-        "image": "./assets/sproutspy.png",
+        "image": "/assets/sproutspy.png",
         "repo_link": "https://github.com/AndyAn7/got-gitProjOne",
         "deployed_link": "https://andyan7.github.io/got-gitProjOne/"
     }, 

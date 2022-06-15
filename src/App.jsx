@@ -6,17 +6,19 @@ import Contact from "./components/contact/Contact";
 import Menu from "./components/menu/Menu";
 import "./app.scss";
 import { useState } from "react";
+import data from "./data";
 
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [projectData, setProjectData] = useState(data);
   return (
     <div className="app">
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className="sections">
         <Intro/>
-        <Portfolio/>
+        <Portfolio projectData={projectData}/>
         <Works/>
         <Contact/>
       </div>
